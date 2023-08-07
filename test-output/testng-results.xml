@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[database connected]]>
+    </line>
+    <line>
+      <![CDATA[browser is launched]]>
+    </line>
+    <line>
+      <![CDATA[login is done]]>
+    </line>
+    <line>
+      <![CDATA[loged out successful]]>
+    </line>
+    <line>
+      <![CDATA[browser closed successful]]>
+    </line>
+    <line>
+      <![CDATA[database dissconnect is successful]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-08-07T08:56:19 IST" name="Default suite" finished-at="2023-08-07T08:57:08 IST" duration-ms="49120">
+    <groups>
+    </groups>
+    <test started-at="2023-08-07T08:56:19 IST" name="Default test" finished-at="2023-08-07T08:57:08 IST" duration-ms="49120">
+      <class name="com.Actitim.TestScripts.Task">
+        <test-method is-config="true" signature="databaseconnection()[pri:0, instance:com.Actitim.TestScripts.Task@6a192cfe]" started-at="2023-08-07T08:56:19 IST" name="databaseconnection" finished-at="2023-08-07T08:56:19 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[database connected]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- databaseconnection -->
+        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:com.Actitim.TestScripts.Task@6a192cfe]" started-at="2023-08-07T08:56:19 IST" name="launchbrowser" finished-at="2023-08-07T08:56:52 IST" duration-ms="32593" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[browser is launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method is-config="true" signature="loginactitime()[pri:0, instance:com.Actitim.TestScripts.Task@6a192cfe]" started-at="2023-08-07T08:56:52 IST" name="loginactitime" finished-at="2023-08-07T08:56:52 IST" duration-ms="366" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[login is done]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginactitime -->
+        <test-method signature="createcustomer()[pri:0, instance:com.Actitim.TestScripts.Task@6a192cfe]" started-at="2023-08-07T08:56:52 IST" name="createcustomer" finished-at="2023-08-07T08:57:05 IST" duration-ms="12697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createcustomer -->
+        <test-method is-config="true" signature="logedout()[pri:0, instance:com.Actitim.TestScripts.Task@6a192cfe]" started-at="2023-08-07T08:57:05 IST" name="logedout" finished-at="2023-08-07T08:57:08 IST" duration-ms="3270" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[loged out successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logedout -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.Actitim.TestScripts.Task@6a192cfe]" started-at="2023-08-07T08:57:08 IST" name="closebrowser" finished-at="2023-08-07T08:57:08 IST" duration-ms="159" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[browser closed successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="databasedisconnected()[pri:0, instance:com.Actitim.TestScripts.Task@6a192cfe]" started-at="2023-08-07T08:57:08 IST" name="databasedisconnected" finished-at="2023-08-07T08:57:08 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[database dissconnect is successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- databasedisconnected -->
+      </class> <!-- com.Actitim.TestScripts.Task -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
